@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-sans: 'Ubuntu', sans-serif;
+  --color-aws: #FF9900;
+  --color-azure: #0078D4;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #09090b; /* Sötét, modern háttér */
+  color: #f4f4f5;
+}
